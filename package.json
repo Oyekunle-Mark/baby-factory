@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Oyekunle-Mark/baby-factory/issues"
   },
-  "homepage": "https://github.com/Oyekunle-Mark/baby-factory#readme"
+  "homepage": "https://github.com/Oyekunle-Mark/baby-factory#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
 }
