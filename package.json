@@ -1,0 +1,24 @@
+{
+  "name": "baby-factory",
+  "version": "1.0.0",
+  "description": "A demonstration of the factory design pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oyekunle-Mark/baby-factory.git"
+  },
+  "keywords": [
+    "factory",
+    "design",
+    "pattern"
+  ],
+  "author": "oyekunle-mark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oyekunle-Mark/baby-factory/issues"
+  },
+  "homepage": "https://github.com/Oyekunle-Mark/baby-factory#readme"
+}
