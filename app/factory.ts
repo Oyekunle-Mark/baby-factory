@@ -3,7 +3,7 @@ import { Infant } from './infant';
 import { Child } from './child';
 import { Adult } from './adult';
 
-export class Factory {
+export class PersonFactory {
     getPerson(dateOfBirth: Date): IPerson {
         const dateNow = new Date();
         const currentMonth = dateNow.getMonth() + 1;

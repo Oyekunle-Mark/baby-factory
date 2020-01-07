@@ -1,6 +1,6 @@
-import { Factory } from './app/factory';
+import { PersonFactory } from './app/factory';
 
-const factory = new Factory();
+const factory = new PersonFactory();
 
 const person1 = factory.getPerson(new Date(2001, 9, 11));
 person1.printDetails();
