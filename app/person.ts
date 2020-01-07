@@ -4,7 +4,7 @@ export enum PersonCategory {
     Adult
 }
 
-interface IPerson {
+export interface IPerson {
     Category: PersonCategory;
     canSignContract(): boolean;
     printDetails(): void;
