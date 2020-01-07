@@ -3,3 +3,9 @@ enum PersonCategory {
     Child,
     Adult
 }
+
+interface IPerson {
+    Category: PersonCategory;
+    canSignContract(): boolean;
+    printDetails(): void;
+}
