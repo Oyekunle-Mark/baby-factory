@@ -25,5 +25,6 @@ export abstract class Person implements IPerson {
         console.log(`Date of Birth: ${this.DateOfBirth.toDateString()}`);
         console.log(`Category: ${PersonCategory[this.Category]}`);
         console.log(`Can sign: ${this.canSignContract()}`);
+        console.log();
     }
 }
