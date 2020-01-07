@@ -1,4 +1,4 @@
-enum PersonCategory {
+export enum PersonCategory {
     Infant,
     Child,
     Adult
