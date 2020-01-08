@@ -1,4 +1,4 @@
-# baby-factory
+# random-factory
 
 A tiny demonstration of the factory design pattern.
 
