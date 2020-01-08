@@ -17,7 +17,7 @@ export abstract class Person implements IPerson {
     constructor(dateOfBirth: Date) {
         this.DateOfBirth = dateOfBirth;
     }
-    
+
     abstract canSignContract(): boolean
 
     printDetails() {
