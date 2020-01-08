@@ -18,8 +18,6 @@ export abstract class Person implements IPerson {
         this.DateOfBirth = dateOfBirth;
     }
 
-    abstract canSignContract(): boolean
-
     printDetails() {
         console.log('Person: ');
         console.log(`Date of Birth: ${this.DateOfBirth.toDateString()}`);
@@ -27,4 +25,6 @@ export abstract class Person implements IPerson {
         console.log(`Can sign: ${this.canSignContract()}`);
         console.log();
     }
+
+    abstract canSignContract(): boolean;
 }
