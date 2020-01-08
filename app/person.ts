@@ -1,7 +1,7 @@
 export enum PersonCategory {
     Infant,
     Child,
-    Adult
+    Adult,
 }
 
 export interface IPerson {
