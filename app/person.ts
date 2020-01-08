@@ -1,7 +1,7 @@
 export enum PersonCategory {
     Infant,
     Child,
-    Adult
+    Adult,
 }
 
 export interface IPerson {
@@ -17,8 +17,6 @@ export abstract class Person implements IPerson {
     constructor(dateOfBirth: Date) {
         this.DateOfBirth = dateOfBirth;
     }
-    
-    abstract canSignContract(): boolean
 
     printDetails() {
         console.log('Person: ');
@@ -27,4 +25,6 @@ export abstract class Person implements IPerson {
         console.log(`Can sign: ${this.canSignContract()}`);
         console.log();
     }
+
+    abstract canSignContract(): boolean;
 }
