@@ -1,7 +1,7 @@
-import { Adult } from './adult';
-import { Child } from './child';
-import { Infant } from './infant';
-import { IPerson } from './person';
+import { Adult } from './index';
+import { Child } from './index';
+import { Infant } from './index';
+import { IPerson } from './index';
 
 export class PersonFactory {
     getPerson(dateOfBirth: Date): IPerson {
