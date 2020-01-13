@@ -1,4 +1,4 @@
-import { PersonFactory } from './app/factory';
+import { PersonFactory } from './app';
 
 const factory = new PersonFactory();
 
